@@ -1,0 +1,34 @@
+
+const Comments = {
+  id: 1,
+  items: [
+    {
+      id: 12345678,
+      name: "first comment",
+      items: [
+        {
+          id: 12345678,
+          name: "first_child comment",
+          items: [
+            {
+              id: 1234567,
+              name: "second_child comment",
+              items: []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      id:12345678,
+      name:"second comment",
+      items:[
+        {
+          id: 1234567,
+          name: "second_child comment",
+          items: []
+        }
+      ]
+    }
+  ]
+}
